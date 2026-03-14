@@ -37,6 +37,9 @@ a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
+a[href]:link {
+    color: var(--text-color);
+}
 a[href]:visited {
     font-style: italic;
 }
